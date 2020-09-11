@@ -1,0 +1,290 @@
+/*
+.Form-Total {
+
+	padding-left: 60px;
+	padding-right: 60px;
+	background-color: #b9cbe0;
+	font-family: monospace;  
+  }
+*/
+
+html[theme='dark-mode'] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+  .vertrag-home {
+	  /*padding-top: 40px;*/
+  }
+  
+  h5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 500;
+  }
+  
+
+  .blah-blah {
+	  padding: 0px;
+	  background-color: #000;
+	  color: #000;
+	  font-weight: 800;
+  }
+  /*
+  .input-vertrag {
+	padding-left: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+  }
+  */
+
+  .input-vdata-unused {
+	/* width: 10em; */
+	height: 1.6em;
+	text-align: right;
+	font-weight: 800;
+	/* font-family: monospace;
+	font-weight: 800;
+	font-size: large; */
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 2px;
+  }
+  
+  #inputStandort-unused {
+	width: 10em;
+  }
+  
+
+  
+  
+  
+  
+  
+ 
+/*
+Labels
+*/  
+  .label-vdata {
+	font-weight: 600;
+  }
+
+/************************************************************************
+  Vertrag Nummer, mit, Art, Standort
+*/
+.input-vertrag {
+	background-color: lightskyblue;
+	padding: 20px 0px 0px 60px;
+	margin-top: 20px;
+  }
+
+  #inputAktualisiert {
+	width: 200px; 
+	background-color: inherit;
+  }
+  
+  #inputAktualisiert,
+  #inputStandort {
+	font-size: medium;
+	font-weight: 700;	 
+	text-align: left;
+	padding-right: 0px;
+	margin-right: 20px;
+  max-width: 512px;
+  min-width: 140px;
+	width: 140px;
+  }
+
+  #typeahead-vart {
+  font-size: medium;
+  font-weight: 700;
+  width: 100px;
+  }	 
+
+  /************************************************************************
+  Laufzeiten Eingabe
+  */
+  .input-laufzeit {
+	background-color: gold;
+	padding: 20px 0px 0px 60px;
+	margin-top: 20px;
+  }
+
+  #inputVStart,
+  #inputLaufzeit,
+  #inputKFrist,
+  #inputVorlauf {
+	font-size: medium;
+	font-weight: 700;	 
+	padding: 0px 0px 0px 10px;
+	margin: 0px 0px 0px 0px;
+  }
+
+  #inputVStart {
+	width: 164px;
+  }
+
+  #inputLaufzeit,
+  #inputKFrist,
+  #inputVorlauf {
+	max-width: 64px;
+  }	
+
+  #inputVStart:hover, 
+  #inputLaufzeit:hover,
+  #inputKFrist:hover,
+  #inputVorlauf:hover {
+	color: dodgerblue;
+  }
+
+  #inputNextV, #inputKNext, #inputKmVorlauf {
+  min-width: 164px;
+  width: 164px;
+	background-color: inherit;
+	font-size: medium;
+	font-weight: 700;	 
+  }
+
+  /**********************************************************  
+  Kosten Eingabe
+  */
+
+  .input-zahlung {
+	background-color: lightsalmon;
+	padding: 20px 0px 0px 60px;
+	margin-top: 20px;
+  }
+
+  #inputZahlung12,
+  #inputZahlung4,
+  #inputZahlung2,
+  #inputZahlung1 {
+	font-size: medium;
+	font-weight: 700;	 
+	text-align: right;
+	padding-right: 0px;
+	margin-right: 20px;
+  min-width: 120px;
+  width: 120px;
+  }
+
+  #inputZahlung12:hover,
+  #inputZahlung4:hover,
+  #inputZahlung2:hover,
+  #inputZahlung1:hover {
+	color: dodgerblue;
+  }
+
+  #inputKostenpA {
+	background-color: inherit;
+	font-size: medium;
+	font-weight: 700;	 
+
+  }
+
+ /*************************************************************************
+ Vertragspartner
+ */
+ .input-kunde {
+	background-color: paleturquoise;
+	padding: 20px 0px 0px 60px;
+	margin-top: 20px;
+   }
+
+   #inputKundenNr,
+   #inputKundenName,
+   #inputKundenStr,
+   #inputKundenOrt,
+   #inputKundenTelefon,
+   #inputKundenFax,
+   #inputKundenEmail {
+	font-size: medium;
+	font-weight: 700;	 
+	text-align: left;
+	padding-right: 0px;
+	margin-right: 20px;
+	max-width: 512px;
+   }  
+
+   #inputKundenNr:hover,
+   #inputKundenName:hover,
+   #inputKundenStr:hover,
+   #inputKundenOrt:hover,
+   #inputKundenTelefon:hover,
+   #inputKundenFax:hover,
+   #inputKundenEmail:hover {
+	color: dodgerblue;
+   }
+
+/*************************************************************
+Sonstiges
+*/   
+.input-sonstiges {
+	padding: 20px 0px 0px 60px;
+	margin-top: 20px;
+	background-color: #fff5bb;
+  }
+
+ #inputSonstiges,
+ #inputDatei,
+ #inputDateiPfad {
+  font-size: medium;
+  font-weight: 700;	 
+  text-align: left;
+  padding-right: 0px;
+  margin-right: 20px;
+  max-width: 512px;
+}
+
+#inputSonstiges:hover,
+#inputDatei:hover,
+#inputDateiPfad:hover {
+	color: dodgerblue;
+}
+
+ 
+.input-buttons {
+	padding: 20px 0px 0px 60px;
+	margin-top: 20px;
+	background-color: seashell;
+  }
+
+ 
+
+/*************************************************************
+Alle Zeilen
+*/
+  *#my-form-row {
+	padding: 0px;
+	margin-bottom: 10px;
+  }
+
+  /*
+  .input-kdata {
+	width: 20em;
+	height: 1.6em;
+	text-align: left;
+	font-family: monospace;
+	font-weight: 800;
+	margin-left: 10px;
+	margin-right: 10px;
+  }
+  */
+  
+  .input-bemerkung {
+	max-width: 800px;
+	text-align: left;
+	font-family: monospace;
+	font-weight: 800;
+	font-size: large;
+	margin-left: 10px;
+	margin-right: 10px;
+  }
+  
+  .input-login {
+	  width: 300px;
+	  text-align: left;
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  border: solid;
+  }
+  
+  

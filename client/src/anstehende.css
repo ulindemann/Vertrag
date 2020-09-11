@@ -1,0 +1,22 @@
+/*
+*/
+h3 {
+	text-align: center;
+}
+
+#anstehende-total {
+	padding-top: 40px;
+	/* margin-bottom: 40px; */
+
+	/*margin: 140px, 10px, 10px, 20px;*/
+	background-color: mistyrose;
+	/*text-align: center;*/
+	/*height: 500px;
+	overflow: auto;*/
+}
+
+.kuendigung-card{
+	margin: 8px 8px 8px 8px;
+	height: auto;
+}
+
